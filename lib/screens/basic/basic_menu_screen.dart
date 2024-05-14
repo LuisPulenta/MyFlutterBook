@@ -45,7 +45,14 @@ class BasicMenuScreen extends StatelessWidget {
                 Icons.arrow_forward_ios_outlined,
                 color: AppTheme.primary,
               ),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const SilverAppbarScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -58,7 +65,14 @@ class BasicMenuScreen extends StatelessWidget {
               title: const Text('Material App'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const MaterialAppScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -71,7 +85,14 @@ class BasicMenuScreen extends StatelessWidget {
               title: const Text('Scaffold'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const AppbarScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -84,7 +105,14 @@ class BasicMenuScreen extends StatelessWidget {
               title: const Text('Container'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const AppbarScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -97,7 +125,14 @@ class BasicMenuScreen extends StatelessWidget {
               title: const Text('Text'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const AppbarScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -110,7 +145,14 @@ class BasicMenuScreen extends StatelessWidget {
               title: const Text('Button'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const AppbarScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -123,7 +165,14 @@ class BasicMenuScreen extends StatelessWidget {
               title: const Text('Column'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const AppbarScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -136,7 +185,14 @@ class BasicMenuScreen extends StatelessWidget {
               title: const Text('Row'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const AppbarScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -149,7 +205,14 @@ class BasicMenuScreen extends StatelessWidget {
               title: const Text('Icons'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const AppbarScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -162,7 +225,14 @@ class BasicMenuScreen extends StatelessWidget {
               title: const Text('Image'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const AppbarScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -175,7 +245,14 @@ class BasicMenuScreen extends StatelessWidget {
               title: const Text('List View'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const AppbarScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -188,7 +265,14 @@ class BasicMenuScreen extends StatelessWidget {
               title: const Text('Grid View'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const AppbarScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -201,7 +285,14 @@ class BasicMenuScreen extends StatelessWidget {
               title: const Text('Stack'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const AppbarScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -214,7 +305,14 @@ class BasicMenuScreen extends StatelessWidget {
               title: const Text('Drawer'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const AppbarScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -227,7 +325,14 @@ class BasicMenuScreen extends StatelessWidget {
               title: const Text('Card'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const AppbarScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -240,7 +345,14 @@ class BasicMenuScreen extends StatelessWidget {
               title: const Text('Bottom Navigation Bar'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const AppbarScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -253,7 +365,14 @@ class BasicMenuScreen extends StatelessWidget {
               title: const Text('Silver Grid'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const AppbarScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -266,7 +385,14 @@ class BasicMenuScreen extends StatelessWidget {
               title: const Text('Silver List'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const AppbarScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -279,7 +405,14 @@ class BasicMenuScreen extends StatelessWidget {
               title: const Text('Sized Box'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const AppbarScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,

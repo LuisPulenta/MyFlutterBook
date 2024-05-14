@@ -1,4 +1,7 @@
+export 'package:myflutterbook/screens/basic/silver_appbar_screen.dart';
+
 export 'package:myflutterbook/screens/basic/appbar_screen.dart';
+export 'package:myflutterbook/screens/basic/material_app_screen.dart';
 
 export 'package:myflutterbook/screens/examples/examples_menu_screen.dart';
 

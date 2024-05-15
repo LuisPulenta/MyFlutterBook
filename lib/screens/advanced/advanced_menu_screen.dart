@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:myflutterbook/screens/inicio/home_screen.dart';
+import 'package:myflutterbook/screens/screens.dart';
 import 'package:myflutterbook/themes/app_theme.dart';
 
 class AdvancedMenuScreen extends StatelessWidget {
@@ -44,7 +44,7 @@ class AdvancedMenuScreen extends StatelessWidget {
                             await Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => HomeScreen(),
+                                builder: (context) => const HeroScreen(),
                               ),
                             );
                           },
@@ -66,7 +66,8 @@ class AdvancedMenuScreen extends StatelessWidget {
                             await Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => HomeScreen(),
+                                builder: (context) =>
+                                    const AnimationiconsScreen(),
                               ),
                             );
                           },
@@ -88,7 +89,8 @@ class AdvancedMenuScreen extends StatelessWidget {
                             await Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => HomeScreen(),
+                                builder: (context) =>
+                                    const AnimatedbuilderScreen(),
                               ),
                             );
                           },
@@ -110,7 +112,8 @@ class AdvancedMenuScreen extends StatelessWidget {
                             await Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => HomeScreen(),
+                                builder: (context) =>
+                                    const AnimatedroundingScreen(),
                               ),
                             );
                           },
@@ -132,7 +135,8 @@ class AdvancedMenuScreen extends StatelessWidget {
                             await Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => HomeScreen(),
+                                builder: (context) =>
+                                    const FluttercircularmenuScreen(),
                               ),
                             );
                           },
@@ -154,7 +158,7 @@ class AdvancedMenuScreen extends StatelessWidget {
                             await Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => HomeScreen(),
+                                builder: (context) => const LottieScreen(),
                               ),
                             );
                           },
@@ -176,7 +180,8 @@ class AdvancedMenuScreen extends StatelessWidget {
                             await Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => HomeScreen(),
+                                builder: (context) =>
+                                    const AnimatedtextkitScreen(),
                               ),
                             );
                           },
@@ -219,7 +224,7 @@ class AdvancedMenuScreen extends StatelessWidget {
                             await Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => HomeScreen(),
+                                builder: (context) => const CheckboxScreen(),
                               ),
                             );
                           },
@@ -241,7 +246,7 @@ class AdvancedMenuScreen extends StatelessWidget {
                             await Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => HomeScreen(),
+                                builder: (context) => const RadiobuttonScreen(),
                               ),
                             );
                           },
@@ -284,7 +289,7 @@ class AdvancedMenuScreen extends StatelessWidget {
                             await Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => HomeScreen(),
+                                builder: (context) => const ImagepickerScreen(),
                               ),
                             );
                           },
@@ -306,7 +311,8 @@ class AdvancedMenuScreen extends StatelessWidget {
                             await Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => HomeScreen(),
+                                builder: (context) =>
+                                    const YoutubeplayerScreen(),
                               ),
                             );
                           },
@@ -328,7 +334,8 @@ class AdvancedMenuScreen extends StatelessWidget {
                             await Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => HomeScreen(),
+                                builder: (context) =>
+                                    const ExtendedimageScreen(),
                               ),
                             );
                           },
@@ -350,7 +357,7 @@ class AdvancedMenuScreen extends StatelessWidget {
                             await Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => HomeScreen(),
+                                builder: (context) => const VideoplayerScreen(),
                               ),
                             );
                           },
@@ -393,7 +400,8 @@ class AdvancedMenuScreen extends StatelessWidget {
                             await Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => HomeScreen(),
+                                builder: (context) =>
+                                    const TimepickerbasicoScreen(),
                               ),
                             );
                           },
@@ -415,7 +423,8 @@ class AdvancedMenuScreen extends StatelessWidget {
                             await Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => HomeScreen(),
+                                builder: (context) =>
+                                    const SaynighttimepickerScreen(),
                               ),
                             );
                           },
@@ -458,7 +467,7 @@ class AdvancedMenuScreen extends StatelessWidget {
                             await Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => HomeScreen(),
+                                builder: (context) => const WebviewScreen(),
                               ),
                             );
                           },
@@ -480,7 +489,7 @@ class AdvancedMenuScreen extends StatelessWidget {
                             await Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => HomeScreen(),
+                                builder: (context) => const ShareplusScreen(),
                               ),
                             );
                           },
@@ -502,7 +511,8 @@ class AdvancedMenuScreen extends StatelessWidget {
                             await Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => HomeScreen(),
+                                builder: (context) =>
+                                    const ShimmereffectScreen(),
                               ),
                             );
                           },
@@ -545,7 +555,7 @@ class AdvancedMenuScreen extends StatelessWidget {
                             await Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => HomeScreen(),
+                                builder: (context) => const ProviderScreen(),
                               ),
                             );
                           },
@@ -567,7 +577,7 @@ class AdvancedMenuScreen extends StatelessWidget {
                             await Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => HomeScreen(),
+                                builder: (context) => const FlutterblocScreen(),
                               ),
                             );
                           },
@@ -589,7 +599,8 @@ class AdvancedMenuScreen extends StatelessWidget {
                             await Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => HomeScreen(),
+                                builder: (context) =>
+                                    const StatenotifierScreen(),
                               ),
                             );
                           },
@@ -611,7 +622,7 @@ class AdvancedMenuScreen extends StatelessWidget {
                             await Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => HomeScreen(),
+                                builder: (context) => const RiverpodScreen(),
                               ),
                             );
                           },
@@ -654,7 +665,8 @@ class AdvancedMenuScreen extends StatelessWidget {
                             await Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => HomeScreen(),
+                                builder: (context) =>
+                                    const MarkdownrenderingScreen(),
                               ),
                             );
                           },
@@ -676,7 +688,8 @@ class AdvancedMenuScreen extends StatelessWidget {
                             await Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => HomeScreen(),
+                                builder: (context) =>
+                                    const FluttercodehighlightScreen(),
                               ),
                             );
                           },
@@ -698,7 +711,7 @@ class AdvancedMenuScreen extends StatelessWidget {
                             await Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => HomeScreen(),
+                                builder: (context) => const LocaljsonScreen(),
                               ),
                             );
                           },
@@ -720,7 +733,7 @@ class AdvancedMenuScreen extends StatelessWidget {
                             await Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => HomeScreen(),
+                                builder: (context) => const DatacallScreen(),
                               ),
                             );
                           },

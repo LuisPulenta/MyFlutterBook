@@ -89,7 +89,7 @@ class BasicMenuScreen extends StatelessWidget {
                 await Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const AppbarScreen(),
+                    builder: (context) => const ScaffoldScreen(),
                   ),
                 );
               },
@@ -109,7 +109,7 @@ class BasicMenuScreen extends StatelessWidget {
                 await Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const AppbarScreen(),
+                    builder: (context) => const ContainerScreen(),
                   ),
                 );
               },
@@ -129,7 +129,7 @@ class BasicMenuScreen extends StatelessWidget {
                 await Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const AppbarScreen(),
+                    builder: (context) => const TextScreen(),
                   ),
                 );
               },
@@ -149,7 +149,7 @@ class BasicMenuScreen extends StatelessWidget {
                 await Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const AppbarScreen(),
+                    builder: (context) => const ButtonScreen(),
                   ),
                 );
               },
@@ -169,7 +169,7 @@ class BasicMenuScreen extends StatelessWidget {
                 await Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const AppbarScreen(),
+                    builder: (context) => const ColumnScreen(),
                   ),
                 );
               },
@@ -189,7 +189,7 @@ class BasicMenuScreen extends StatelessWidget {
                 await Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const AppbarScreen(),
+                    builder: (context) => const RowScreen(),
                   ),
                 );
               },
@@ -209,7 +209,7 @@ class BasicMenuScreen extends StatelessWidget {
                 await Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const AppbarScreen(),
+                    builder: (context) => const IconsScreen(),
                   ),
                 );
               },
@@ -229,7 +229,7 @@ class BasicMenuScreen extends StatelessWidget {
                 await Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const AppbarScreen(),
+                    builder: (context) => const ImageScreen(),
                   ),
                 );
               },
@@ -249,7 +249,7 @@ class BasicMenuScreen extends StatelessWidget {
                 await Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const AppbarScreen(),
+                    builder: (context) => const ListviewScreen(),
                   ),
                 );
               },
@@ -269,7 +269,7 @@ class BasicMenuScreen extends StatelessWidget {
                 await Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const AppbarScreen(),
+                    builder: (context) => const GridviewScreen(),
                   ),
                 );
               },
@@ -289,7 +289,7 @@ class BasicMenuScreen extends StatelessWidget {
                 await Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const AppbarScreen(),
+                    builder: (context) => const StackScreen(),
                   ),
                 );
               },
@@ -309,7 +309,7 @@ class BasicMenuScreen extends StatelessWidget {
                 await Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const AppbarScreen(),
+                    builder: (context) => const DrawerScreen(),
                   ),
                 );
               },
@@ -329,7 +329,7 @@ class BasicMenuScreen extends StatelessWidget {
                 await Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const AppbarScreen(),
+                    builder: (context) => const CardScreen(),
                   ),
                 );
               },
@@ -349,7 +349,7 @@ class BasicMenuScreen extends StatelessWidget {
                 await Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const AppbarScreen(),
+                    builder: (context) => const BottomnavigationbarScreen(),
                   ),
                 );
               },
@@ -369,7 +369,7 @@ class BasicMenuScreen extends StatelessWidget {
                 await Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const AppbarScreen(),
+                    builder: (context) => const SilvergridScreen(),
                   ),
                 );
               },
@@ -389,7 +389,7 @@ class BasicMenuScreen extends StatelessWidget {
                 await Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const AppbarScreen(),
+                    builder: (context) => const SilverlistScreen(),
                   ),
                 );
               },
@@ -409,7 +409,7 @@ class BasicMenuScreen extends StatelessWidget {
                 await Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const AppbarScreen(),
+                    builder: (context) => const SizedboxScreen(),
                   ),
                 );
               },

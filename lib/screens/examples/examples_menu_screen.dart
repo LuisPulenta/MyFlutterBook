@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:myflutterbook/screens/inicio/home_screen.dart';
+import 'package:myflutterbook/screens/screens.dart';
 import 'package:myflutterbook/themes/app_theme.dart';
 
 class ExamplesMenuScreen extends StatelessWidget {
@@ -44,7 +44,8 @@ class ExamplesMenuScreen extends StatelessWidget {
                             await Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => HomeScreen(),
+                                builder: (context) =>
+                                    const Splashscreen1Screen(),
                               ),
                             );
                           },
@@ -59,14 +60,15 @@ class ExamplesMenuScreen extends StatelessWidget {
                           ),
                           trailing: const Icon(Icons.arrow_forward_ios_outlined,
                               color: AppTheme.primary),
-                          title: const Text('Splash Screen 1',
+                          title: const Text('Splash Screen 2',
                               style:
                                   TextStyle(fontSize: 15, color: Colors.black)),
                           onTap: () async {
                             await Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => HomeScreen(),
+                                builder: (context) =>
+                                    const Splashscreen2Screen(),
                               ),
                             );
                           },
@@ -109,7 +111,7 @@ class ExamplesMenuScreen extends StatelessWidget {
                             await Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => HomeScreen(),
+                                builder: (context) => const Login1Screen(),
                               ),
                             );
                           },
@@ -131,7 +133,7 @@ class ExamplesMenuScreen extends StatelessWidget {
                             await Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => HomeScreen(),
+                                builder: (context) => const Login2Screen(),
                               ),
                             );
                           },
@@ -174,7 +176,7 @@ class ExamplesMenuScreen extends StatelessWidget {
                             await Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => HomeScreen(),
+                                builder: (context) => const Homescreen1Screen(),
                               ),
                             );
                           },
@@ -196,7 +198,7 @@ class ExamplesMenuScreen extends StatelessWidget {
                             await Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => HomeScreen(),
+                                builder: (context) => const Homescreen2Screen(),
                               ),
                             );
                           },
@@ -239,7 +241,7 @@ class ExamplesMenuScreen extends StatelessWidget {
                             await Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => HomeScreen(),
+                                builder: (context) => const Profile1Screen(),
                               ),
                             );
                           },
@@ -261,7 +263,7 @@ class ExamplesMenuScreen extends StatelessWidget {
                             await Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => HomeScreen(),
+                                builder: (context) => const Profile2Screen(),
                               ),
                             );
                           },
@@ -304,7 +306,7 @@ class ExamplesMenuScreen extends StatelessWidget {
                             await Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => HomeScreen(),
+                                builder: (context) => const Signup1Screen(),
                               ),
                             );
                           },
@@ -326,7 +328,7 @@ class ExamplesMenuScreen extends StatelessWidget {
                             await Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => HomeScreen(),
+                                builder: (context) => const Signup2Screen(),
                               ),
                             );
                           },

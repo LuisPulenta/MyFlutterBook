@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:myflutterbook/screens/screens.dart';
 import 'package:myflutterbook/themes/app_theme.dart';
 
 class MediumMenuScreen extends StatelessWidget {
@@ -22,7 +23,14 @@ class MediumMenuScreen extends StatelessWidget {
               title: const Text('About Dialog'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const AboutdialogScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -37,7 +45,14 @@ class MediumMenuScreen extends StatelessWidget {
                 Icons.arrow_forward_ios_outlined,
                 color: AppTheme.primary,
               ),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const AbsortpointerScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -50,7 +65,14 @@ class MediumMenuScreen extends StatelessWidget {
               title: const Text('Action Chip'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const ActionchipScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -63,7 +85,14 @@ class MediumMenuScreen extends StatelessWidget {
               title: const Text('Align'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const AlignScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -76,7 +105,14 @@ class MediumMenuScreen extends StatelessWidget {
               title: const Text('Animated Container'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const AnimatedcontainerScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -89,7 +125,14 @@ class MediumMenuScreen extends StatelessWidget {
               title: const Text('Animated List'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const AnimatedlistScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -102,7 +145,14 @@ class MediumMenuScreen extends StatelessWidget {
               title: const Text('Animated Padding'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const AnimatedpaddingScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -115,7 +165,14 @@ class MediumMenuScreen extends StatelessWidget {
               title: const Text('Animated Switcher'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const AnimatedswitcherScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -128,7 +185,14 @@ class MediumMenuScreen extends StatelessWidget {
               title: const Text('Backdrop Filter'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const BackdropfilterScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -141,7 +205,14 @@ class MediumMenuScreen extends StatelessWidget {
               title: const Text('Builder'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const BuilderScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -154,7 +225,14 @@ class MediumMenuScreen extends StatelessWidget {
               title: const Text('Choice Chip'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const ChoicechipScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -167,7 +245,14 @@ class MediumMenuScreen extends StatelessWidget {
               title: const Text('Clip Rect'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const CliprectScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -180,7 +265,14 @@ class MediumMenuScreen extends StatelessWidget {
               title: const Text('Data Table'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const DatatableScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -193,7 +285,14 @@ class MediumMenuScreen extends StatelessWidget {
               title: const Text('Dismissible'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const DismissibleScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -206,7 +305,14 @@ class MediumMenuScreen extends StatelessWidget {
               title: const Text('Draggable'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const DraggableScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -219,7 +325,15 @@ class MediumMenuScreen extends StatelessWidget {
               title: const Text('Draggable Scrollable Sheet'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) =>
+                        const DraggablescrollablesheetScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -232,7 +346,14 @@ class MediumMenuScreen extends StatelessWidget {
               title: const Text('Dropdown Button'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const DropdownbuttonScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -245,7 +366,14 @@ class MediumMenuScreen extends StatelessWidget {
               title: const Text('Filter Chip'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const FilterchipScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -258,7 +386,14 @@ class MediumMenuScreen extends StatelessWidget {
               title: const Text('Flexible'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const FlexibleScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -271,7 +406,14 @@ class MediumMenuScreen extends StatelessWidget {
               title: const Text('Floating Action Button'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const FloatingactionbuttonScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -284,7 +426,14 @@ class MediumMenuScreen extends StatelessWidget {
               title: const Text('Flutter Logo'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const FlutterlogoScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -297,7 +446,14 @@ class MediumMenuScreen extends StatelessWidget {
               title: const Text('Gesture Detector'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const GesturedetectorScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -310,7 +466,14 @@ class MediumMenuScreen extends StatelessWidget {
               title: const Text('Indexed Stack'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const IndexedstackScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -323,7 +486,14 @@ class MediumMenuScreen extends StatelessWidget {
               title: const Text('Input Chip'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const InputchipScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -336,7 +506,14 @@ class MediumMenuScreen extends StatelessWidget {
               title: const Text('Media Query'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const MediaqueryScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -349,7 +526,14 @@ class MediumMenuScreen extends StatelessWidget {
               title: const Text('Page View'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const PageviewScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -362,7 +546,14 @@ class MediumMenuScreen extends StatelessWidget {
               title: const Text('Radio List Tile'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const RadiolisttileScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -375,7 +566,14 @@ class MediumMenuScreen extends StatelessWidget {
               title: const Text('Refresh Indicator'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const RefreshindicatorScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -388,7 +586,14 @@ class MediumMenuScreen extends StatelessWidget {
               title: const Text('Rotated Box'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const RotatedboxScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -401,7 +606,14 @@ class MediumMenuScreen extends StatelessWidget {
               title: const Text('Safe Area'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const SafeareaScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -414,7 +626,14 @@ class MediumMenuScreen extends StatelessWidget {
               title: const Text('Single Child ScrollView'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const SinglechildscrollviewScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -427,7 +646,14 @@ class MediumMenuScreen extends StatelessWidget {
               title: const Text('Stepper'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const StepperScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -440,7 +666,14 @@ class MediumMenuScreen extends StatelessWidget {
               title: const Text('Switch List Tile'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const SwitchlisttileScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -453,7 +686,14 @@ class MediumMenuScreen extends StatelessWidget {
               title: const Text('Tap Page Selector'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const TappageselectorScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,
@@ -466,7 +706,14 @@ class MediumMenuScreen extends StatelessWidget {
               title: const Text('Tooltip'),
               trailing: const Icon(Icons.arrow_forward_ios_outlined,
                   color: AppTheme.primary),
-              onTap: () {},
+              onTap: () async {
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const TooltipScreen(),
+                  ),
+                );
+              },
             ),
             const Divider(
               color: AppTheme.primary,

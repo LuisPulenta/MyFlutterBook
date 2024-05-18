@@ -1,17 +1,91 @@
 import 'package:flutter/material.dart';
+import 'package:myflutterbook/themes/app_theme.dart';
 
 class GridviewScreen extends StatelessWidget {
   const GridviewScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('GridviewScreen'),
-        centerTitle: true,
-      ),
-      body: const Center(
-        child: Text('GridviewScreen'),
+    return Padding(
+      padding: const EdgeInsets.only(top: 12.0),
+      child: Scaffold(
+        appBar: AppBar(
+          iconTheme: const IconThemeData(color: Colors.yellow),
+          backgroundColor: AppTheme.primary,
+          title: const Text(
+            'Gridview Demo',
+          ),
+        ),
+        body: GridView(
+          scrollDirection: Axis.vertical,
+          gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+              crossAxisCount: 3, crossAxisSpacing: 4.0, mainAxisSpacing: 10),
+          children: const [
+            Card(
+              color: Colors.orange,
+            ),
+            Card(
+              color: Colors.orangeAccent,
+            ),
+            Card(
+              color: Colors.brown,
+            ),
+            Card(
+              color: Colors.red,
+            ),
+            Card(
+              color: Colors.deepOrange,
+            ),
+            Card(
+              color: Colors.greenAccent,
+            ),
+            Card(
+              color: Colors.green,
+            ),
+            Card(
+              color: Colors.lightGreenAccent,
+            ),
+            Card(
+              color: Colors.deepPurple,
+            ),
+            Card(
+              color: Colors.tealAccent,
+            ),
+            Card(
+              color: Colors.blueGrey,
+            ),
+            Card(
+              color: Colors.orange,
+            ),
+            Card(
+              color: Colors.orangeAccent,
+            ),
+            Card(
+              color: Colors.brown,
+            ),
+            Card(
+              color: Colors.red,
+            ),
+            Card(
+              color: Colors.deepOrange,
+            ),
+            Card(
+              color: Colors.greenAccent,
+            ),
+            Card(
+              color: Colors.green,
+            ),
+            Card(
+              color: Colors.lightGreenAccent,
+            ),
+            Card(
+              color: Colors.deepPurple,
+            ),
+            Card(
+              color: Colors.tealAccent,
+            ),
+          ],
+        ),
       ),
     );
   }

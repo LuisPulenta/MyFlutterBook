@@ -5,13 +5,91 @@ class ListviewScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('ListviewScreen'),
-        centerTitle: true,
-      ),
-      body: const Center(
-        child: Text('ListviewScreen'),
+    return Padding(
+      padding: const EdgeInsets.all(0.0),
+      child: Scaffold(
+        // backgroundColor: Theme.of(context).colorScheme.secondary.withOpacity(0.5),
+        appBar: AppBar(
+          // iconTheme: IconThemeData(color: Colors.black),
+          // backgroundColor: Colors.white,
+          title: const Text(
+            'Listview Demo',
+            style: TextStyle(
+                // color: Colors.black,
+                ),
+          ),
+        ),
+
+        body: ListView(
+          children: const [
+            ListTile(
+              leading: Icon(Icons.five_g),
+              title: Text('Write your title'),
+              subtitle: Text('write your subtitle'),
+              trailing: Icon(Icons.ac_unit),
+            ),
+            ListTile(
+              leading: Icon(Icons.five_g),
+              title: Text('Write your title'),
+              subtitle: Text('write your subtitle'),
+              trailing: Icon(Icons.ac_unit),
+            ),
+            ListTile(
+              leading: Icon(Icons.five_g),
+              title: Text('Write your title'),
+              subtitle: Text('write your subtitle'),
+              trailing: Icon(Icons.ac_unit),
+            ),
+            ListTile(
+              leading: Icon(Icons.five_g),
+              title: Text('Write your title'),
+              subtitle: Text('write your subtitle'),
+              trailing: Icon(Icons.ac_unit),
+            ),
+            ListTile(
+              leading: Icon(Icons.five_g),
+              title: Text('Write your title'),
+              subtitle: Text('write your subtitle'),
+              trailing: Icon(Icons.ac_unit),
+            ),
+            ListTile(
+              leading: Icon(Icons.five_g),
+              title: Text('Write your title'),
+              subtitle: Text('write your subtitle'),
+              trailing: Icon(Icons.ac_unit),
+            ),
+            ListTile(
+              leading: Icon(Icons.five_g),
+              title: Text('Write your title'),
+              subtitle: Text('write your subtitle'),
+              trailing: Icon(Icons.ac_unit),
+            ),
+            ListTile(
+              leading: Icon(Icons.five_g),
+              title: Text('Write your title'),
+              subtitle: Text('write your subtitle'),
+              trailing: Icon(Icons.ac_unit),
+            ),
+            ListTile(
+              leading: Icon(Icons.five_g),
+              title: Text('Write your title'),
+              subtitle: Text('write your subtitle'),
+              trailing: Icon(Icons.ac_unit),
+            ),
+            ListTile(
+              leading: Icon(Icons.five_g),
+              title: Text('Write your title'),
+              subtitle: Text('write your subtitle'),
+              trailing: Icon(Icons.ac_unit),
+            ),
+            ListTile(
+              leading: Icon(Icons.five_g),
+              title: Text('Write your title'),
+              subtitle: Text('write your subtitle'),
+              trailing: Icon(Icons.ac_unit),
+            ),
+          ],
+        ),
       ),
     );
   }

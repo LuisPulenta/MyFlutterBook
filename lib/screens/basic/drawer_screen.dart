@@ -93,10 +93,8 @@ class _DrawerScreenState extends State<DrawerScreen> {
                   style: TextStyle(fontSize: 15.0),
                 ),
               ),
-              Container(
-                child: const Divider(
-                  thickness: 4,
-                ),
+              const Divider(
+                thickness: 4,
               ),
               const ListTile(
                 leading: Icon(

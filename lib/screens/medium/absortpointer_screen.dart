@@ -9,14 +9,13 @@ class AbsortpointerScreen extends StatefulWidget {
 }
 
 class _AbsortpointerScreenState extends State<AbsortpointerScreen> {
-  late var NtextString;
+  late String ntextString;
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     setState(() {
-      NtextString = 'Touch Above SizeBox';
+      ntextString = 'Touch Above SizeBox';
     });
   }
 
@@ -42,7 +41,7 @@ class _AbsortpointerScreenState extends State<AbsortpointerScreen> {
                   ),
                   onPressed: () {
                     setState(() {
-                      NtextString = 'You Touch Red Size box';
+                      ntextString = 'You Touch Red Size box';
                     });
                   },
                   child: null,
@@ -69,7 +68,7 @@ class _AbsortpointerScreenState extends State<AbsortpointerScreen> {
             child: Padding(
               padding: const EdgeInsets.all(8.0),
               child: Text(
-                NtextString,
+                ntextString,
               ),
             ),
           )

@@ -13,7 +13,7 @@ class RefreshindicatorScreen extends StatelessWidget {
       body: RefreshIndicator(
           color: Colors.white,
           backgroundColor: Colors.orangeAccent,
-          displacement: 300,
+          displacement: 100,
           onRefresh: () async {
             // Replace this delay with the code to be executed during refresh
             // and return asynchronous code

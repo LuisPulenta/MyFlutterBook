@@ -17,7 +17,6 @@ class BasicMenuScreen extends StatelessWidget {
           children: [
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("AP"),
               ),
               title: const Text('AppBar'),
@@ -37,7 +36,6 @@ class BasicMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("SA"),
               ),
               title: const Text('Silver AppBar'),
@@ -59,7 +57,6 @@ class BasicMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("MA"),
               ),
               title: const Text('Material App'),
@@ -79,7 +76,6 @@ class BasicMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("SC"),
               ),
               title: const Text('Scaffold'),
@@ -99,7 +95,6 @@ class BasicMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("CO"),
               ),
               title: const Text('Container'),
@@ -119,7 +114,6 @@ class BasicMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("TE"),
               ),
               title: const Text('Text'),
@@ -139,7 +133,6 @@ class BasicMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("BU"),
               ),
               title: const Text('Button'),
@@ -159,7 +152,6 @@ class BasicMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("CO"),
               ),
               title: const Text('Column'),
@@ -179,7 +171,6 @@ class BasicMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("RO"),
               ),
               title: const Text('Row'),
@@ -199,7 +190,6 @@ class BasicMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("IC"),
               ),
               title: const Text('Icons'),
@@ -219,7 +209,6 @@ class BasicMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("IM"),
               ),
               title: const Text('Image'),
@@ -239,7 +228,6 @@ class BasicMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("LI"),
               ),
               title: const Text('List View'),
@@ -259,7 +247,6 @@ class BasicMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("GR"),
               ),
               title: const Text('Grid View'),
@@ -279,7 +266,6 @@ class BasicMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("ST"),
               ),
               title: const Text('Stack'),
@@ -299,7 +285,6 @@ class BasicMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("DR"),
               ),
               title: const Text('Drawer'),
@@ -319,7 +304,6 @@ class BasicMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("CA"),
               ),
               title: const Text('Card'),
@@ -339,7 +323,6 @@ class BasicMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("BO"),
               ),
               title: const Text('Bottom Navigation Bar'),
@@ -359,7 +342,6 @@ class BasicMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("SG"),
               ),
               title: const Text('Silver Grid'),
@@ -379,7 +361,6 @@ class BasicMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("SL"),
               ),
               title: const Text('Silver List'),
@@ -399,7 +380,6 @@ class BasicMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("SI"),
               ),
               title: const Text('Sized Box'),

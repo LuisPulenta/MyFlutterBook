@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:myflutterbook/themes/app_theme.dart';
 
 class GridviewScreen extends StatelessWidget {
   const GridviewScreen({Key? key}) : super(key: key);
@@ -11,7 +10,6 @@ class GridviewScreen extends StatelessWidget {
       child: Scaffold(
         appBar: AppBar(
           iconTheme: const IconThemeData(color: Colors.yellow),
-          backgroundColor: AppTheme.primary,
           title: const Text(
             'Gridview Demo',
           ),

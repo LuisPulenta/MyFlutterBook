@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:myflutterbook/themes/app_theme.dart';
 
 class PageviewScreen extends StatefulWidget {
   const PageviewScreen({Key? key}) : super(key: key);
@@ -15,7 +14,6 @@ class _PageviewScreenState extends State<PageviewScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: AppTheme.primary,
         title: const Text('PageView'),
       ),
       body: PageView(

@@ -13,7 +13,6 @@ class MaterialAppScreen extends StatelessWidget {
         home: Scaffold(
           backgroundColor: AppTheme.secondary,
           appBar: AppBar(
-            backgroundColor: AppTheme.primary,
             title: const Text('MaterialApp Demo'),
           ),
           body: const Center(

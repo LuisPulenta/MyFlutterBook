@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:myflutterbook/themes/app_theme.dart';
+
 import 'dart:math';
 
 class SilverlistScreen extends StatelessWidget {
@@ -9,7 +9,6 @@ class SilverlistScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: AppTheme.primary,
         title: const Text('Silver List'),
         centerTitle: true,
       ),

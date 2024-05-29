@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:myflutterbook/themes/app_theme.dart';
 
 class CliprectScreen extends StatefulWidget {
   const CliprectScreen({Key? key}) : super(key: key);
@@ -15,7 +14,6 @@ class _CliprectScreenState extends State<CliprectScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: AppTheme.primary,
         title: const Text('ClipRect'),
       ),
       body: Column(

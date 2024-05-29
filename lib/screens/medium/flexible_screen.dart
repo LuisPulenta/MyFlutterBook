@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:myflutterbook/themes/app_theme.dart';
 
 class FlexibleScreen extends StatelessWidget {
   const FlexibleScreen({Key? key}) : super(key: key);
@@ -8,7 +7,6 @@ class FlexibleScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: AppTheme.primary,
         title: const Text('Flexible'),
       ),
       body: Center(

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:myflutterbook/themes/app_theme.dart';
 
 class AbsortpointerScreen extends StatefulWidget {
   const AbsortpointerScreen({Key? key}) : super(key: key);
@@ -23,7 +22,6 @@ class _AbsortpointerScreenState extends State<AbsortpointerScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: AppTheme.primary,
         title: const Text('Absort Pointer'),
       ),
       body: Column(

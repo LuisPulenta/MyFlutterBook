@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:myflutterbook/themes/app_theme.dart';
 
 class ChoicechipScreen extends StatefulWidget {
   const ChoicechipScreen({Key? key}) : super(key: key);
@@ -16,7 +15,6 @@ class _ChoicechipScreenState extends State<ChoicechipScreen> {
     final TextTheme textTheme = Theme.of(context).textTheme;
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: AppTheme.primary,
         title: const Text('Choice Chip'),
       ),
       body: Center(

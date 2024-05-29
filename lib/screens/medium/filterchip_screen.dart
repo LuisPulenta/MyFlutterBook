@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:myflutterbook/themes/app_theme.dart';
 
 class FilterchipScreen extends StatefulWidget {
   const FilterchipScreen({Key? key}) : super(key: key);
@@ -21,7 +20,6 @@ class _FilterchipScreenState extends State<FilterchipScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: AppTheme.primary,
         title: const Text('FilterChip'),
       ),
       body: Center(

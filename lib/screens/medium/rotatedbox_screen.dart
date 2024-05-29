@@ -7,12 +7,45 @@ class RotatedboxScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('RotatedboxScreen'),
+        title: const Text('Rotatedbox'),
         centerTitle: true,
       ),
-      body: const Center(
-        child: Text('RotatedboxScreen'),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [
+            RotatedBox(
+              quarterTurns: 1,
+              child: Container(
+                  color: Colors.purpleAccent,
+                  child: const Text('Flutter Book!')),
+            ),
+            RotatedBox(
+              quarterTurns: 2,
+              child: Container(
+                  color: Colors.orangeAccent,
+                  child: const Text('Flutter Book!')),
+            ),
+            RotatedBox(
+              quarterTurns: 3,
+              child: Container(
+                  color: Colors.deepOrange, child: const Text('Flutter Book!')),
+            ),
+            RotatedBox(
+              quarterTurns: 4,
+              child: Container(
+                  color: Colors.greenAccent,
+                  child: const Text('Flutter Book!')),
+            ),
+          ],
+        ),
       ),
     );
   }
 }
+
+
+//**************************************************//
+                // *** END ***//
+                // Flutter Book //
+//**************************************************//

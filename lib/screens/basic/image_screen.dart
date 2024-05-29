@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:transparent_image/transparent_image.dart'
     show kTransparentImage;
-import 'package:myflutterbook/themes/app_theme.dart';
 
 class ImageScreen extends StatefulWidget {
   const ImageScreen({Key? key}) : super(key: key);
@@ -17,7 +16,6 @@ class _ImageScreenState extends State<ImageScreen> {
     // bool hasConnection;
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: AppTheme.primary,
         title: const Text('Images'),
       ),
       body: ListView(

@@ -17,7 +17,6 @@ class MediumMenuScreen extends StatelessWidget {
           children: [
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("AB"),
               ),
               title: const Text('About Dialog'),
@@ -37,7 +36,6 @@ class MediumMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("AB"),
               ),
               title: const Text('Absort Pointer'),
@@ -59,7 +57,6 @@ class MediumMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("AC"),
               ),
               title: const Text('Action Chip'),
@@ -79,7 +76,6 @@ class MediumMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("AL"),
               ),
               title: const Text('Align'),
@@ -99,7 +95,6 @@ class MediumMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("AN"),
               ),
               title: const Text('Animated Container'),
@@ -119,7 +114,6 @@ class MediumMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("AN"),
               ),
               title: const Text('Animated List'),
@@ -139,7 +133,6 @@ class MediumMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("AN"),
               ),
               title: const Text('Animated Padding'),
@@ -159,7 +152,6 @@ class MediumMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("AN"),
               ),
               title: const Text('Animated Switcher'),
@@ -179,7 +171,6 @@ class MediumMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("BA"),
               ),
               title: const Text('Backdrop Filter'),
@@ -199,7 +190,6 @@ class MediumMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("BU"),
               ),
               title: const Text('Builder'),
@@ -219,7 +209,6 @@ class MediumMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("CH"),
               ),
               title: const Text('Choice Chip'),
@@ -239,7 +228,6 @@ class MediumMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("CL"),
               ),
               title: const Text('Clip Rect'),
@@ -259,7 +247,6 @@ class MediumMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("DA"),
               ),
               title: const Text('Data Table'),
@@ -279,7 +266,6 @@ class MediumMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("DI"),
               ),
               title: const Text('Dismissible'),
@@ -299,7 +285,6 @@ class MediumMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("DR"),
               ),
               title: const Text('Draggable'),
@@ -319,7 +304,6 @@ class MediumMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("DR"),
               ),
               title: const Text('Draggable Scrollable Sheet'),
@@ -340,7 +324,6 @@ class MediumMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("DR"),
               ),
               title: const Text('Dropdown Button'),
@@ -360,7 +343,6 @@ class MediumMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("FI"),
               ),
               title: const Text('Filter Chip'),
@@ -380,7 +362,6 @@ class MediumMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("FL"),
               ),
               title: const Text('Flexible'),
@@ -400,7 +381,6 @@ class MediumMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("FL"),
               ),
               title: const Text('Floating Action Button'),
@@ -420,7 +400,6 @@ class MediumMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("FL"),
               ),
               title: const Text('Flutter Logo'),
@@ -440,7 +419,6 @@ class MediumMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("GE"),
               ),
               title: const Text('Gesture Detector'),
@@ -460,7 +438,6 @@ class MediumMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("IN"),
               ),
               title: const Text('Indexed Stack'),
@@ -480,7 +457,6 @@ class MediumMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("IN"),
               ),
               title: const Text('Input Chip'),
@@ -500,7 +476,6 @@ class MediumMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("ME"),
               ),
               title: const Text('Media Query'),
@@ -520,7 +495,6 @@ class MediumMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("PA"),
               ),
               title: const Text('Page View'),
@@ -540,7 +514,6 @@ class MediumMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("RA"),
               ),
               title: const Text('Radio List Tile'),
@@ -560,7 +533,6 @@ class MediumMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("RE"),
               ),
               title: const Text('Refresh Indicator'),
@@ -580,7 +552,6 @@ class MediumMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("RO"),
               ),
               title: const Text('Rotated Box'),
@@ -600,7 +571,6 @@ class MediumMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("SA"),
               ),
               title: const Text('Safe Area'),
@@ -620,7 +590,6 @@ class MediumMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("SI"),
               ),
               title: const Text('Single Child ScrollView'),
@@ -640,7 +609,6 @@ class MediumMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("ST"),
               ),
               title: const Text('Stepper'),
@@ -660,7 +628,6 @@ class MediumMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("SW"),
               ),
               title: const Text('Switch List Tile'),
@@ -680,7 +647,6 @@ class MediumMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("TA"),
               ),
               title: const Text('Tap Page Selector'),
@@ -700,7 +666,6 @@ class MediumMenuScreen extends StatelessWidget {
             ),
             ListTile(
               leading: const CircleAvatar(
-                backgroundColor: AppTheme.primary,
                 child: Text("TO"),
               ),
               title: const Text('Tooltip'),

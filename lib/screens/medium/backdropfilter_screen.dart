@@ -1,6 +1,5 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
-import 'package:myflutterbook/themes/app_theme.dart';
 
 class BackdropfilterScreen extends StatefulWidget {
   const BackdropfilterScreen({Key? key}) : super(key: key);
@@ -14,7 +13,6 @@ class _BackdropfilterScreenState extends State<BackdropfilterScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: AppTheme.primary,
         title: const Text('Backdrop Filter'),
       ),
       body: Center(

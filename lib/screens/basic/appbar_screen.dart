@@ -13,7 +13,6 @@ class AppbarScreen extends StatelessWidget {
         //Appbar
         appBar: AppBar(
           centerTitle: true,
-          backgroundColor: AppTheme.primary,
           title: const Text('AppBar Demo'),
           actions: [
             Container(

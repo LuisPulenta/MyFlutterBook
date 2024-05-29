@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:myflutterbook/themes/app_theme.dart';
 
 class ActionchipScreen extends StatelessWidget {
   const ActionchipScreen({Key? key}) : super(key: key);
@@ -13,7 +12,6 @@ class ActionchipScreen extends StatelessWidget {
         );
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: AppTheme.primary,
         title: const Text('Action Chip'),
       ),
       body: Center(

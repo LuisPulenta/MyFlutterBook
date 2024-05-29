@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:myflutterbook/themes/app_theme.dart';
 
 class MediaqueryScreen extends StatelessWidget {
   const MediaqueryScreen({Key? key}) : super(key: key);
@@ -8,7 +7,6 @@ class MediaqueryScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: AppTheme.primary,
         title: const Text('MediaQuery'),
       ),
       body: SingleChildScrollView(

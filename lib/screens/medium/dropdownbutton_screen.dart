@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:myflutterbook/themes/app_theme.dart';
 
 class DropdownbuttonScreen extends StatefulWidget {
   const DropdownbuttonScreen({Key? key}) : super(key: key);
@@ -25,7 +24,6 @@ class _DropdownbuttonScreenState extends State<DropdownbuttonScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: AppTheme.primary,
         title: const Text('Dropdown'),
       ),
       body: Center(

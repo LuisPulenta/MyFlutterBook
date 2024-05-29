@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:myflutterbook/themes/app_theme.dart';
 
 class IndexedstackScreen extends StatefulWidget {
   const IndexedstackScreen({Key? key}) : super(key: key);
@@ -14,7 +13,6 @@ class _IndexedstackScreenState extends State<IndexedstackScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: AppTheme.primary,
         title: const Text('Indexed Stack'),
       ),
       body: Column(

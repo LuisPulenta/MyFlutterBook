@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:myflutterbook/themes/app_theme.dart';
 
 class FlutterlogoScreen extends StatefulWidget {
   const FlutterlogoScreen({Key? key}) : super(key: key);
@@ -14,7 +13,6 @@ class _FlutterlogoScreenState extends State<FlutterlogoScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: AppTheme.primary,
         title: const Text('Flutter Logo'),
       ),
       body: SingleChildScrollView(

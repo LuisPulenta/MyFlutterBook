@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:myflutterbook/themes/app_theme.dart';
 
 class RadiolisttileScreen extends StatefulWidget {
   const RadiolisttileScreen({Key? key}) : super(key: key);
@@ -16,7 +15,6 @@ class _RadiolisttileScreenState extends State<RadiolisttileScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: AppTheme.primary,
         title: const Text('RadioListTile'),
       ),
       body: ListView(

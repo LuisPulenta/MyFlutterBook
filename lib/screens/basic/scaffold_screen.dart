@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:myflutterbook/themes/app_theme.dart';
 
 class ScaffoldScreen extends StatefulWidget {
   const ScaffoldScreen({Key? key}) : super(key: key);
@@ -16,7 +15,6 @@ class _ScaffoldScreenState extends State<ScaffoldScreen> {
       padding: const EdgeInsets.all(8.0),
       child: Scaffold(
         appBar: AppBar(
-          backgroundColor: AppTheme.primary,
           title: const Text('Scaffold Demo'),
         ),
         body: Center(child: Text('Ha presionado el botón $_count veces.')),

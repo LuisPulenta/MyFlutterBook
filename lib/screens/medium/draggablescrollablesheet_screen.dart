@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:myflutterbook/themes/app_theme.dart';
 
 class DraggablescrollablesheetScreen extends StatefulWidget {
   const DraggablescrollablesheetScreen({Key? key}) : super(key: key);
@@ -15,7 +14,6 @@ class _DraggablescrollablesheetScreenState
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: AppTheme.primary,
         title: const Text('Draggable Scrollable'),
       ),
       body: DraggableScrollableSheet(

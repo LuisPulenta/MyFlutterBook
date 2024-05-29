@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:myflutterbook/themes/app_theme.dart';
 
 class AnimatedcontainerScreen extends StatefulWidget {
   const AnimatedcontainerScreen({Key? key}) : super(key: key);
@@ -16,7 +15,6 @@ class _AnimatedcontainerScreenState extends State<AnimatedcontainerScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: AppTheme.primary,
         title: const Text('Animated Container'),
       ),
       body: Column(

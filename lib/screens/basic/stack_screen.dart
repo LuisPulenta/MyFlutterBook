@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:myflutterbook/themes/app_theme.dart';
 
 class StackScreen extends StatelessWidget {
   const StackScreen({Key? key}) : super(key: key);
@@ -10,7 +9,6 @@ class StackScreen extends StatelessWidget {
       padding: const EdgeInsets.all(8.0),
       child: Scaffold(
         appBar: AppBar(
-          backgroundColor: AppTheme.primary,
           title: const Text(
             'Stack',
           ),

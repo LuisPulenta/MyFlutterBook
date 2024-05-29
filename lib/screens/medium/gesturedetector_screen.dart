@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:myflutterbook/themes/app_theme.dart';
 
 class GesturedetectorScreen extends StatefulWidget {
   const GesturedetectorScreen({Key? key}) : super(key: key);
@@ -15,7 +14,6 @@ class _GesturedetectorScreenState extends State<GesturedetectorScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: AppTheme.primary,
         title: const Text('Gesture Detector'),
       ),
       backgroundColor: _lightIsOn ? Colors.orangeAccent : Colors.white,

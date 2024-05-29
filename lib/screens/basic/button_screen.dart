@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:myflutterbook/themes/app_theme.dart';
 
 class ButtonScreen extends StatefulWidget {
   const ButtonScreen({Key? key}) : super(key: key);
@@ -15,7 +14,6 @@ class _ButtonScreenState extends State<ButtonScreen> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        backgroundColor: AppTheme.primary,
         title: const Text('Buttons'),
       ),
       body: Center(

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:myflutterbook/themes/app_theme.dart';
 
 class DraggableScreen extends StatefulWidget {
   const DraggableScreen({Key? key}) : super(key: key);
@@ -14,7 +13,6 @@ class _DraggableScreenState extends State<DraggableScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: AppTheme.primary,
         title: const Text('Draggable'),
       ),
       body: SizedBox(

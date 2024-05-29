@@ -22,7 +22,6 @@ class ExamplesMenuScreen extends StatelessWidget {
                     collapsedIconColor: Colors.black,
                     iconColor: Colors.black,
                     leading: const CircleAvatar(
-                      backgroundColor: AppTheme.primary,
                       child: Text("SP"),
                     ),
                     title: const Text("Splash Screen",
@@ -32,7 +31,6 @@ class ExamplesMenuScreen extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 15.0),
                         child: ListTile(
                           leading: const CircleAvatar(
-                            backgroundColor: AppTheme.primary,
                             child: Text("SP"),
                           ),
                           title: const Text('Splash Screen 1',
@@ -55,7 +53,6 @@ class ExamplesMenuScreen extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 15.0),
                         child: ListTile(
                           leading: const CircleAvatar(
-                            backgroundColor: AppTheme.primary,
                             child: Text("SP"),
                           ),
                           trailing: const Icon(Icons.arrow_forward_ios_outlined,
@@ -89,7 +86,6 @@ class ExamplesMenuScreen extends StatelessWidget {
                     collapsedIconColor: Colors.black,
                     iconColor: Colors.black,
                     leading: const CircleAvatar(
-                      backgroundColor: AppTheme.primary,
                       child: Text("LO"),
                     ),
                     title: const Text("Login",
@@ -99,7 +95,6 @@ class ExamplesMenuScreen extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 15.0),
                         child: ListTile(
                           leading: const CircleAvatar(
-                            backgroundColor: AppTheme.primary,
                             child: Text("LO"),
                           ),
                           title: const Text('Login 1',
@@ -121,7 +116,6 @@ class ExamplesMenuScreen extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 15.0),
                         child: ListTile(
                           leading: const CircleAvatar(
-                            backgroundColor: AppTheme.primary,
                             child: Text("LO"),
                           ),
                           trailing: const Icon(Icons.arrow_forward_ios_outlined,
@@ -154,7 +148,6 @@ class ExamplesMenuScreen extends StatelessWidget {
                     collapsedIconColor: Colors.black,
                     iconColor: Colors.black,
                     leading: const CircleAvatar(
-                      backgroundColor: AppTheme.primary,
                       child: Text("HO"),
                     ),
                     title: const Text("Home Screen",
@@ -164,7 +157,6 @@ class ExamplesMenuScreen extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 15.0),
                         child: ListTile(
                           leading: const CircleAvatar(
-                            backgroundColor: AppTheme.primary,
                             child: Text("HO"),
                           ),
                           title: const Text('Home Screen 1',
@@ -186,7 +178,6 @@ class ExamplesMenuScreen extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 15.0),
                         child: ListTile(
                           leading: const CircleAvatar(
-                            backgroundColor: AppTheme.primary,
                             child: Text("HO"),
                           ),
                           trailing: const Icon(Icons.arrow_forward_ios_outlined,
@@ -219,7 +210,6 @@ class ExamplesMenuScreen extends StatelessWidget {
                     collapsedIconColor: Colors.black,
                     iconColor: Colors.black,
                     leading: const CircleAvatar(
-                      backgroundColor: AppTheme.primary,
                       child: Text("PR"),
                     ),
                     title: const Text("Profile",
@@ -229,7 +219,6 @@ class ExamplesMenuScreen extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 15.0),
                         child: ListTile(
                           leading: const CircleAvatar(
-                            backgroundColor: AppTheme.primary,
                             child: Text("PR"),
                           ),
                           title: const Text('Profile 1',
@@ -251,7 +240,6 @@ class ExamplesMenuScreen extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 15.0),
                         child: ListTile(
                           leading: const CircleAvatar(
-                            backgroundColor: AppTheme.primary,
                             child: Text("PR"),
                           ),
                           trailing: const Icon(Icons.arrow_forward_ios_outlined,
@@ -284,7 +272,6 @@ class ExamplesMenuScreen extends StatelessWidget {
                     collapsedIconColor: Colors.black,
                     iconColor: Colors.black,
                     leading: const CircleAvatar(
-                      backgroundColor: AppTheme.primary,
                       child: Text("SI"),
                     ),
                     title: const Text("Sign Up",
@@ -294,7 +281,6 @@ class ExamplesMenuScreen extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 15.0),
                         child: ListTile(
                           leading: const CircleAvatar(
-                            backgroundColor: AppTheme.primary,
                             child: Text("SI"),
                           ),
                           title: const Text('Sign Up 1',
@@ -316,7 +302,6 @@ class ExamplesMenuScreen extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 15.0),
                         child: ListTile(
                           leading: const CircleAvatar(
-                            backgroundColor: AppTheme.primary,
                             child: Text("SI"),
                           ),
                           trailing: const Icon(Icons.arrow_forward_ios_outlined,

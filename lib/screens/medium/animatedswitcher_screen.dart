@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:myflutterbook/themes/app_theme.dart';
 
 class AnimatedswitcherScreen extends StatefulWidget {
   const AnimatedswitcherScreen({Key? key}) : super(key: key);
@@ -21,7 +20,6 @@ class _AnimatedswitcherScreenState extends State<AnimatedswitcherScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: AppTheme.primary,
         title: const Text('Animated Switcher'),
       ),
       body: Center(

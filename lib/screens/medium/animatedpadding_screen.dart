@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:myflutterbook/themes/app_theme.dart';
 
 class AnimatedpaddingScreen extends StatefulWidget {
   const AnimatedpaddingScreen({Key? key}) : super(key: key);
@@ -14,7 +13,6 @@ class _AnimatedpaddingScreenState extends State<AnimatedpaddingScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: AppTheme.primary,
         title: const Text('Animated Padding'),
       ),
       body: Center(

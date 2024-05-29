@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:myflutterbook/themes/app_theme.dart';
 
 class TextScreen extends StatelessWidget {
   const TextScreen({Key? key}) : super(key: key);
@@ -8,7 +7,6 @@ class TextScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: AppTheme.primary,
         title: const Text('Text'),
       ),
       body: Center(

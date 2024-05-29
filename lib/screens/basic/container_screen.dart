@@ -8,7 +8,6 @@ class ContainerScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: AppTheme.primary,
         title: const Text('Container'),
       ),
       body: Column(

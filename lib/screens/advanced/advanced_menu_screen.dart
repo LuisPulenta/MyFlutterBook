@@ -22,7 +22,6 @@ class AdvancedMenuScreen extends StatelessWidget {
                     collapsedIconColor: Colors.black,
                     iconColor: Colors.black,
                     leading: const CircleAvatar(
-                      backgroundColor: AppTheme.primary,
                       child: Text("AN"),
                     ),
                     title: const Text("Animations",
@@ -32,7 +31,6 @@ class AdvancedMenuScreen extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 15.0),
                         child: ListTile(
                           leading: const CircleAvatar(
-                            backgroundColor: AppTheme.primary,
                             child: Text("HE"),
                           ),
                           title: const Text('Hero',
@@ -54,7 +52,6 @@ class AdvancedMenuScreen extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 15.0),
                         child: ListTile(
                           leading: const CircleAvatar(
-                            backgroundColor: AppTheme.primary,
                             child: Text("AN"),
                           ),
                           trailing: const Icon(Icons.arrow_forward_ios_outlined,
@@ -77,7 +74,6 @@ class AdvancedMenuScreen extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 15.0),
                         child: ListTile(
                           leading: const CircleAvatar(
-                            backgroundColor: AppTheme.primary,
                             child: Text("AN"),
                           ),
                           trailing: const Icon(Icons.arrow_forward_ios_outlined,
@@ -100,7 +96,6 @@ class AdvancedMenuScreen extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 15.0),
                         child: ListTile(
                           leading: const CircleAvatar(
-                            backgroundColor: AppTheme.primary,
                             child: Text("AN"),
                           ),
                           trailing: const Icon(Icons.arrow_forward_ios_outlined,
@@ -123,7 +118,6 @@ class AdvancedMenuScreen extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 15.0),
                         child: ListTile(
                           leading: const CircleAvatar(
-                            backgroundColor: AppTheme.primary,
                             child: Text("FL"),
                           ),
                           trailing: const Icon(Icons.arrow_forward_ios_outlined,
@@ -146,7 +140,6 @@ class AdvancedMenuScreen extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 15.0),
                         child: ListTile(
                           leading: const CircleAvatar(
-                            backgroundColor: AppTheme.primary,
                             child: Text("LO"),
                           ),
                           trailing: const Icon(Icons.arrow_forward_ios_outlined,
@@ -168,7 +161,6 @@ class AdvancedMenuScreen extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 15.0),
                         child: ListTile(
                           leading: const CircleAvatar(
-                            backgroundColor: AppTheme.primary,
                             child: Text("AN"),
                           ),
                           trailing: const Icon(Icons.arrow_forward_ios_outlined,
@@ -202,7 +194,6 @@ class AdvancedMenuScreen extends StatelessWidget {
                     collapsedIconColor: Colors.black,
                     iconColor: Colors.black,
                     leading: const CircleAvatar(
-                      backgroundColor: AppTheme.primary,
                       child: Text("CH"),
                     ),
                     title: const Text("Checkers",
@@ -212,7 +203,6 @@ class AdvancedMenuScreen extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 15.0),
                         child: ListTile(
                           leading: const CircleAvatar(
-                            backgroundColor: AppTheme.primary,
                             child: Text("CH"),
                           ),
                           title: const Text('Checkbox',
@@ -234,7 +224,6 @@ class AdvancedMenuScreen extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 15.0),
                         child: ListTile(
                           leading: const CircleAvatar(
-                            backgroundColor: AppTheme.primary,
                             child: Text("RA"),
                           ),
                           trailing: const Icon(Icons.arrow_forward_ios_outlined,
@@ -267,7 +256,6 @@ class AdvancedMenuScreen extends StatelessWidget {
                     collapsedIconColor: Colors.black,
                     iconColor: Colors.black,
                     leading: const CircleAvatar(
-                      backgroundColor: AppTheme.primary,
                       child: Text("MU"),
                     ),
                     title: const Text("Multimedia",
@@ -277,7 +265,6 @@ class AdvancedMenuScreen extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 15.0),
                         child: ListTile(
                           leading: const CircleAvatar(
-                            backgroundColor: AppTheme.primary,
                             child: Text("IM"),
                           ),
                           title: const Text('Image Picker',
@@ -299,7 +286,6 @@ class AdvancedMenuScreen extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 15.0),
                         child: ListTile(
                           leading: const CircleAvatar(
-                            backgroundColor: AppTheme.primary,
                             child: Text("YO"),
                           ),
                           trailing: const Icon(Icons.arrow_forward_ios_outlined,
@@ -322,7 +308,6 @@ class AdvancedMenuScreen extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 15.0),
                         child: ListTile(
                           leading: const CircleAvatar(
-                            backgroundColor: AppTheme.primary,
                             child: Text("EX"),
                           ),
                           trailing: const Icon(Icons.arrow_forward_ios_outlined,
@@ -345,7 +330,6 @@ class AdvancedMenuScreen extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 15.0),
                         child: ListTile(
                           leading: const CircleAvatar(
-                            backgroundColor: AppTheme.primary,
                             child: Text("VI"),
                           ),
                           trailing: const Icon(Icons.arrow_forward_ios_outlined,
@@ -378,7 +362,6 @@ class AdvancedMenuScreen extends StatelessWidget {
                     collapsedIconColor: Colors.black,
                     iconColor: Colors.black,
                     leading: const CircleAvatar(
-                      backgroundColor: AppTheme.primary,
                       child: Text("TI"),
                     ),
                     title: const Text("Time Pickers",
@@ -388,7 +371,6 @@ class AdvancedMenuScreen extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 15.0),
                         child: ListTile(
                           leading: const CircleAvatar(
-                            backgroundColor: AppTheme.primary,
                             child: Text("TI"),
                           ),
                           title: const Text('Time Picker Básico',
@@ -411,7 +393,6 @@ class AdvancedMenuScreen extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 15.0),
                         child: ListTile(
                           leading: const CircleAvatar(
-                            backgroundColor: AppTheme.primary,
                             child: Text("SA"),
                           ),
                           trailing: const Icon(Icons.arrow_forward_ios_outlined,
@@ -445,7 +426,6 @@ class AdvancedMenuScreen extends StatelessWidget {
                     collapsedIconColor: Colors.black,
                     iconColor: Colors.black,
                     leading: const CircleAvatar(
-                      backgroundColor: AppTheme.primary,
                       child: Text("PL"),
                     ),
                     title: const Text("Plugins",
@@ -455,7 +435,6 @@ class AdvancedMenuScreen extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 15.0),
                         child: ListTile(
                           leading: const CircleAvatar(
-                            backgroundColor: AppTheme.primary,
                             child: Text("WE"),
                           ),
                           title: const Text('Web View',
@@ -477,7 +456,6 @@ class AdvancedMenuScreen extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 15.0),
                         child: ListTile(
                           leading: const CircleAvatar(
-                            backgroundColor: AppTheme.primary,
                             child: Text("SH"),
                           ),
                           trailing: const Icon(Icons.arrow_forward_ios_outlined,
@@ -499,7 +477,6 @@ class AdvancedMenuScreen extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 15.0),
                         child: ListTile(
                           leading: const CircleAvatar(
-                            backgroundColor: AppTheme.primary,
                             child: Text("SH"),
                           ),
                           trailing: const Icon(Icons.arrow_forward_ios_outlined,
@@ -533,7 +510,6 @@ class AdvancedMenuScreen extends StatelessWidget {
                     collapsedIconColor: Colors.black,
                     iconColor: Colors.black,
                     leading: const CircleAvatar(
-                      backgroundColor: AppTheme.primary,
                       child: Text("ST"),
                     ),
                     title: const Text("State Management",
@@ -543,7 +519,6 @@ class AdvancedMenuScreen extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 15.0),
                         child: ListTile(
                           leading: const CircleAvatar(
-                            backgroundColor: AppTheme.primary,
                             child: Text("PR"),
                           ),
                           title: const Text('Provider',
@@ -565,7 +540,6 @@ class AdvancedMenuScreen extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 15.0),
                         child: ListTile(
                           leading: const CircleAvatar(
-                            backgroundColor: AppTheme.primary,
                             child: Text("FL"),
                           ),
                           trailing: const Icon(Icons.arrow_forward_ios_outlined,
@@ -587,7 +561,6 @@ class AdvancedMenuScreen extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 15.0),
                         child: ListTile(
                           leading: const CircleAvatar(
-                            backgroundColor: AppTheme.primary,
                             child: Text("ST"),
                           ),
                           trailing: const Icon(Icons.arrow_forward_ios_outlined,
@@ -610,7 +583,6 @@ class AdvancedMenuScreen extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 15.0),
                         child: ListTile(
                           leading: const CircleAvatar(
-                            backgroundColor: AppTheme.primary,
                             child: Text("RI"),
                           ),
                           trailing: const Icon(Icons.arrow_forward_ios_outlined,
@@ -643,7 +615,6 @@ class AdvancedMenuScreen extends StatelessWidget {
                     collapsedIconColor: Colors.black,
                     iconColor: Colors.black,
                     leading: const CircleAvatar(
-                      backgroundColor: AppTheme.primary,
                       child: Text("RI"),
                     ),
                     title: const Text("Rich Text",
@@ -653,7 +624,6 @@ class AdvancedMenuScreen extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 15.0),
                         child: ListTile(
                           leading: const CircleAvatar(
-                            backgroundColor: AppTheme.primary,
                             child: Text("MA"),
                           ),
                           title: const Text('Markdown Rendering',
@@ -676,7 +646,6 @@ class AdvancedMenuScreen extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 15.0),
                         child: ListTile(
                           leading: const CircleAvatar(
-                            backgroundColor: AppTheme.primary,
                             child: Text("FL"),
                           ),
                           trailing: const Icon(Icons.arrow_forward_ios_outlined,
@@ -699,7 +668,6 @@ class AdvancedMenuScreen extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 15.0),
                         child: ListTile(
                           leading: const CircleAvatar(
-                            backgroundColor: AppTheme.primary,
                             child: Text("LO"),
                           ),
                           trailing: const Icon(Icons.arrow_forward_ios_outlined,
@@ -721,7 +689,6 @@ class AdvancedMenuScreen extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 15.0),
                         child: ListTile(
                           leading: const CircleAvatar(
-                            backgroundColor: AppTheme.primary,
                             child: Text("DA"),
                           ),
                           trailing: const Icon(Icons.arrow_forward_ios_outlined,

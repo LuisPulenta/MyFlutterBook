@@ -5,13 +5,51 @@ class HeroScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('HeroScreen'),
-        centerTitle: true,
+    return Center(
+      child: Scaffold(
+        appBar: AppBar(
+          title: const Text('Hero'),
+          centerTitle: true,
+        ),
+        body: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            const SizedBox(
+              height: 20.0,
+            ),
+            ListTile(
+              leading: GestureDetector(
+                onTap: () => _secondPage(context),
+                child: const Hero(
+                  tag: 'tag',
+                  child: CircleAvatar(
+                    backgroundImage: AssetImage('assets/ic_launcher.png'),
+                  ),
+                ),
+              ),
+              title: const Text(
+                'Click on the image to see Hero Animations.',
+              ),
+            ),
+          ],
+        ),
       ),
-      body: const Center(
-        child: Text('HeroScreen'),
+    );
+  }
+
+//---------------------------------------------------------------------
+
+  void _secondPage(BuildContext context) {
+    Navigator.of(context).push(
+      MaterialPageRoute(
+        builder: (ctx) => Scaffold(
+          body: Center(
+            child: Hero(
+              tag: 'tag',
+              child: Image.asset('assets/ic_launcher.png'),
+            ),
+          ),
+        ),
       ),
     );
   }

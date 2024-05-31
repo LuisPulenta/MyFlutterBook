@@ -43,10 +43,16 @@ class HeroScreen extends StatelessWidget {
     Navigator.of(context).push(
       MaterialPageRoute(
         builder: (ctx) => Scaffold(
-          body: Center(
-            child: Hero(
-              tag: 'tag',
-              child: Image.asset('assets/ic_launcher.png'),
+          body: Scaffold(
+            appBar: AppBar(
+              title: const Text('Second Page'),
+              centerTitle: true,
+            ),
+            body: Center(
+              child: Hero(
+                tag: 'tag',
+                child: Image.asset('assets/ic_launcher.png'),
+              ),
             ),
           ),
         ),

@@ -34,27 +34,30 @@ class _AnimatedbuilderScreenState extends State<AnimatedbuilderScreen>
         title: const Text('Animation Builder'),
         centerTitle: true,
       ),
-      body: Column(
-        children: [
-          AnimatedBuilder(
-            animation: rotateAnimation,
-            builder: (context, child) {
-              return Transform.rotate(
-                angle: rotateAnimation.value,
-                child: child,
-              );
-            },
-            child: const FlutterLogo(size: 72.0),
-          ),
-          ElevatedButton(
-            onPressed: () => _animationcontroller.forward(),
-            child: const Text('Forward animation'),
-          ),
-          ElevatedButton(
-            onPressed: () => _animationcontroller.reverse(),
-            child: const Text('Reverse animation'),
-          ),
-        ],
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            AnimatedBuilder(
+              animation: rotateAnimation,
+              builder: (context, child) {
+                return Transform.rotate(
+                  angle: rotateAnimation.value,
+                  child: child,
+                );
+              },
+              child: const FlutterLogo(size: 72.0),
+            ),
+            ElevatedButton(
+              onPressed: () => _animationcontroller.forward(),
+              child: const Text('Forward animation'),
+            ),
+            ElevatedButton(
+              onPressed: () => _animationcontroller.reverse(),
+              child: const Text('Reverse animation'),
+            ),
+          ],
+        ),
       ),
     );
   }

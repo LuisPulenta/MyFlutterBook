@@ -70,7 +70,7 @@ class _RadiolisttileScreenState extends State<RadiolisttileScreen> {
               ));
             },
           ),
-          Divider(
+          const Divider(
             color: Colors.red,
           ),
           RadioListTile(

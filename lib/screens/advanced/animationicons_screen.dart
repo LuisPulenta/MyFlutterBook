@@ -20,76 +20,74 @@ class _AnimationiconsScreenState extends State<AnimationiconsScreen>
         centerTitle: true,
       ),
       body: SingleChildScrollView(
-        child: Container(
-          child: Center(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: [
-                const SizedBox(
-                  height: 10,
+        child: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              const SizedBox(
+                height: 10,
+              ),
+              const Text("Click on the buttons below"),
+              IconButton(
+                iconSize: 60,
+                tooltip: "home_menu",
+                icon: AnimatedIcon(
+                  icon: AnimatedIcons.home_menu,
+                  progress: _animationController,
+                  color: Colors.purple,
                 ),
-                const Text("Click on the buttons below"),
-                IconButton(
-                  iconSize: 60,
-                  tooltip: "home_menu",
-                  icon: AnimatedIcon(
-                    icon: AnimatedIcons.home_menu,
-                    progress: _animationController,
-                    color: Colors.purple,
-                  ),
-                  onPressed: () => _ClickOnPressed(),
+                onPressed: () => _clickOnPressed(),
+              ),
+              IconButton(
+                iconSize: 60,
+                tooltip: "list_view",
+                icon: AnimatedIcon(
+                  icon: AnimatedIcons.list_view,
+                  progress: _animationController,
                 ),
-                IconButton(
-                  iconSize: 60,
-                  tooltip: "list_view",
-                  icon: AnimatedIcon(
-                    icon: AnimatedIcons.list_view,
-                    progress: _animationController,
-                  ),
-                  onPressed: () => _ClickOnPressed(),
+                onPressed: () => _clickOnPressed(),
+              ),
+              IconButton(
+                iconSize: 60,
+                tooltip: "add_event",
+                icon: AnimatedIcon(
+                  icon: AnimatedIcons.add_event,
+                  progress: _animationController,
+                  color: Colors.lightBlue,
                 ),
-                IconButton(
-                  iconSize: 60,
-                  tooltip: "add_event",
-                  icon: AnimatedIcon(
-                    icon: AnimatedIcons.add_event,
-                    progress: _animationController,
-                    color: Colors.lightBlue,
-                  ),
-                  onPressed: () => _ClickOnPressed(),
+                onPressed: () => _clickOnPressed(),
+              ),
+              IconButton(
+                iconSize: 60,
+                tooltip: 'ellipsis_search',
+                icon: AnimatedIcon(
+                  icon: AnimatedIcons.ellipsis_search,
+                  progress: _animationController,
+                  color: Colors.red,
                 ),
-                IconButton(
-                  iconSize: 60,
-                  tooltip: 'ellipsis_search',
-                  icon: AnimatedIcon(
-                    icon: AnimatedIcons.ellipsis_search,
-                    progress: _animationController,
-                    color: Colors.red,
-                  ),
-                  onPressed: () => _ClickOnPressed(),
+                onPressed: () => _clickOnPressed(),
+              ),
+              IconButton(
+                iconSize: 60,
+                tooltip: "play_pause",
+                icon: AnimatedIcon(
+                  icon: AnimatedIcons.play_pause,
+                  progress: _animationController,
+                  color: Colors.green,
                 ),
-                IconButton(
-                  iconSize: 60,
-                  tooltip: "play_pause",
-                  icon: AnimatedIcon(
-                    icon: AnimatedIcons.play_pause,
-                    progress: _animationController,
-                    color: Colors.green,
-                  ),
-                  onPressed: () => _ClickOnPressed(),
+                onPressed: () => _clickOnPressed(),
+              ),
+              IconButton(
+                iconSize: 60,
+                tooltip: "arrow_menu",
+                icon: AnimatedIcon(
+                  icon: AnimatedIcons.arrow_menu,
+                  progress: _animationController,
+                  color: Colors.lime,
                 ),
-                IconButton(
-                  iconSize: 60,
-                  tooltip: "arrow_menu",
-                  icon: AnimatedIcon(
-                    icon: AnimatedIcons.arrow_menu,
-                    progress: _animationController,
-                    color: Colors.lime,
-                  ),
-                  onPressed: () => _ClickOnPressed(),
-                ),
-              ],
-            ),
+                onPressed: () => _clickOnPressed(),
+              ),
+            ],
           ),
         ),
       ),
@@ -109,7 +107,7 @@ class _AnimationiconsScreenState extends State<AnimationiconsScreen>
     super.dispose();
   }
 
-  void _ClickOnPressed() {
+  void _clickOnPressed() {
     setState(() {
       isTab = !isTab;
       isTab ? _animationController.forward() : _animationController.reverse();

@@ -48,6 +48,15 @@ class _FluttercircularmenuScreenState extends State<FluttercircularmenuScreen> {
                 });
               }),
           CircularMenuItem(
+              icon: Icons.home,
+              color: Colors.green,
+              onTap: () {
+                setState(() {
+                  _color = Colors.green;
+                  _colorName = 'Green';
+                });
+              }),
+          CircularMenuItem(
               icon: Icons.search,
               color: Colors.blue,
               onTap: () {

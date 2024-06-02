@@ -1,8 +1,8 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 
-const _NTexts = ['Hello!', 'Welcome to', 'Flutter Book!'];
-const _NTextStyle = TextStyle(
+const _nTexts = ['Hello!', 'Welcome to', 'Flutter Book!'];
+const _nTextstyle = TextStyle(
   fontSize: 32.0,
   fontWeight: FontWeight.bold,
   color: Colors.blueAccent,
@@ -50,10 +50,10 @@ class AnimatedtextkitScreen extends StatelessWidget {
               ),
               const SizedBox(width: 20.0, height: 100.0),
               DefaultTextStyle(
-                style: _NTextStyle,
+                style: _nTextstyle,
                 child: AnimatedTextKit(
                   animatedTexts: [
-                    for (final text in _NTexts)
+                    for (final text in _nTexts)
                       RotateAnimatedText(
                         text,
                       )
@@ -71,7 +71,7 @@ class AnimatedtextkitScreen extends StatelessWidget {
           SizedBox(
             width: 250.0,
             child: DefaultTextStyle(
-              style: _NTextStyle,
+              style: _nTextstyle,
               child: AnimatedTextKit(
                 animatedTexts: [
                   TypewriterAnimatedText('Discipline is the best tool'),
@@ -94,10 +94,10 @@ class AnimatedtextkitScreen extends StatelessWidget {
             child: AnimatedTextKit(
               onTap: () => print("Tap Event"),
               animatedTexts: [
-                for (final text in _NTexts)
+                for (final text in _nTexts)
                   FadeAnimatedText(
                     text,
-                    textStyle: _NTextStyle,
+                    textStyle: _nTextstyle,
                   )
               ],
               repeatForever: true,
@@ -108,10 +108,10 @@ class AnimatedtextkitScreen extends StatelessWidget {
           AnimatedTextKit(
             onTap: () => print("Tap Event"),
             animatedTexts: [
-              for (final text in _NTexts)
+              for (final text in _nTexts)
                 TyperAnimatedText(
                   text,
-                  textStyle: _NTextStyle,
+                  textStyle: _nTextstyle,
                   textAlign: TextAlign.start,
                 )
             ],
@@ -122,10 +122,10 @@ class AnimatedtextkitScreen extends StatelessWidget {
             height: 128,
             child: AnimatedTextKit(
               animatedTexts: [
-                for (final text in _NTexts)
+                for (final text in _nTexts)
                   WavyAnimatedText(
                     text,
-                    textStyle: _NTextStyle,
+                    textStyle: _nTextstyle,
                     textAlign: TextAlign.center,
                   )
               ],
@@ -139,10 +139,10 @@ class AnimatedtextkitScreen extends StatelessWidget {
             width: 100,
             child: AnimatedTextKit(
               animatedTexts: [
-                for (final text in _NTexts)
+                for (final text in _nTexts)
                   ScaleAnimatedText(
                     text,
-                    textStyle: _NTextStyle,
+                    textStyle: _nTextstyle,
                     textAlign: TextAlign.center,
                   )
               ],

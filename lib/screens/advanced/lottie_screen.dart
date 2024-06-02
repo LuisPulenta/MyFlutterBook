@@ -14,9 +14,13 @@ class LottieScreen extends StatelessWidget {
       body: ListView(
         children: <Widget>[
           // Load a Lottie file from your assets
-          Lottie.asset(
-            'assets_lottie/Animation - 1708443549008.json',
-            height: 200,
+          // Lottie.asset(
+          //   'assets_lottie/Animation - 1708443549008.json',
+          //   height: 200,
+          // ),
+          Lottie.network(
+            'https://raw.githubusercontent.com/xvrh/lottie-flutter/master/example/assets/Mobilo/A.json',
+            height: 100,
           ),
 
           const Divider(),
@@ -30,9 +34,13 @@ class LottieScreen extends StatelessWidget {
 
           const Divider(),
           // Load an animation and its images from a zip file
-          Lottie.asset(
-            'assets_lottie/angel.zip',
-            height: 200,
+          // Lottie.asset(
+          //   'assets_lottie/angel.zip',
+          //   height: 200,
+          // ),
+          Lottie.network(
+            'https://raw.githubusercontent.com/xvrh/lottie-flutter/master/example/assets/Mobilo/A.json',
+            height: 100,
           ),
         ],
       ),

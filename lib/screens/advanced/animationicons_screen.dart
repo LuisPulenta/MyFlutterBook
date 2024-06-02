@@ -32,7 +32,7 @@ class _AnimationiconsScreenState extends State<AnimationiconsScreen>
                 iconSize: 60,
                 tooltip: "home_menu",
                 icon: AnimatedIcon(
-                  icon: AnimatedIcons.home_menu,
+                  icon: AnimatedIcons.add_event,
                   progress: _animationController,
                   color: Colors.purple,
                 ),

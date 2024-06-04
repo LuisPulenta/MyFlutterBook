@@ -9,8 +9,7 @@ class CheckboxScreen extends StatefulWidget {
 
 class _CheckboxScreenState extends State<CheckboxScreen> {
   bool isChecked = false;
-  // ignore: non_constant_identifier_names
-  bool Check = true;
+
   bool ncheck = false;
 
   @override

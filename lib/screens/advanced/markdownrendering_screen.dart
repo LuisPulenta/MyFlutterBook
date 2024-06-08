@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_markdown/flutter_markdown.dart';
 
 class MarkdownrenderingScreen extends StatelessWidget {
   const MarkdownrenderingScreen({Key? key}) : super(key: key);
@@ -7,12 +8,73 @@ class MarkdownrenderingScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('MarkdownrenderingScreen'),
+        title: const Text("Markdown Rendering"),
         centerTitle: true,
       ),
-      body: const Center(
-        child: Text('MarkdownrenderingScreen'),
+      body: const Scrollbar(
+        child: Markdown(
+          data: _markdownText,
+          // onTapLink: (text, href, title) => onTapLink(text, href, title, context),
+          selectable: true,
+        ),
       ),
     );
   }
 }
+
+const String _markdownText = '''
+# Markdown Example
+The flutter_markdown package renders Markdown, a lightweight markup language, 
+into a Flutter widget containing a rich text representation.
+## Text Style
+Style text as _italic_, __bold__, or `inline code`.
+- Use bulleted lists
+- To better clarify
+- Your points
+
+## Links
+You can use [hyperlinks](https://flutter.dev) in markdown
+
+## Markdown widget
+This is an example of how to create your own Markdown widget:
+
+`new Markdown(data: 'Hello _world_!');`
+
+
+## Code 
+
+```dart
+void main() {
+  runApp(new MaterialApp(
+    home: new Scaffold(
+      body: Markdown(
+    controller: controller,
+    selectable: true,
+    data: 'Insert emoji :smiley: here',
+    extensionSet: md.ExtensionSet(
+      md.ExtensionSet.gitHubFlavored.blockSyntaxes,
+      <md.InlineSyntax>[
+        md.EmojiSyntax(),
+        ...md.ExtensionSet.gitHubFlavored.inlineSyntaxes
+      ],
+    ),
+  );
+    )
+  ));
+}
+```
+## Tables: 
+
+| Flutter | Widget |
+| --- | --- |
+| Text | Markdown |
+| Text | Quill |
+| Text | Code Highlight |
+| Text | Super Editor |
+
+## Images
+You can include images:
+![Flutter logo](https://cdn.hashnode.com/res/hashnode/image/upload/v1605504495105/6ChihpXVI.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp)
+
+
+''';

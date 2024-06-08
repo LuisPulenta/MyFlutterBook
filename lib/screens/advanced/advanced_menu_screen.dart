@@ -646,6 +646,28 @@ class AdvancedMenuScreen extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 15.0),
                         child: ListTile(
                           leading: const CircleAvatar(
+                            child: Text("SE"),
+                          ),
+                          title: const Text('Selectable Text',
+                              style:
+                                  TextStyle(fontSize: 15, color: Colors.black)),
+                          trailing: const Icon(Icons.arrow_forward_ios_outlined,
+                              color: AppTheme.primary),
+                          onTap: () async {
+                            await Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) =>
+                                    const SelectableTextScreen(),
+                              ),
+                            );
+                          },
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.only(left: 15.0),
+                        child: ListTile(
+                          leading: const CircleAvatar(
                             child: Text("FL"),
                           ),
                           trailing: const Icon(Icons.arrow_forward_ios_outlined,

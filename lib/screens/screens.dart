@@ -18,6 +18,7 @@ export 'package:myflutterbook/screens/advanced/provider_screen.dart';
 export 'package:myflutterbook/screens/advanced/radiobutton_screen.dart';
 export 'package:myflutterbook/screens/advanced/riverpod_screen.dart';
 export 'package:myflutterbook/screens/advanced/saynighttimepicker_screen.dart';
+export 'package:myflutterbook/screens/advanced/selectable_text_screen.dart';
 export 'package:myflutterbook/screens/advanced/shareplus_screen.dart';
 export 'package:myflutterbook/screens/advanced/shimmereffect_screen.dart';
 export 'package:myflutterbook/screens/advanced/statenotifier_screen.dart';

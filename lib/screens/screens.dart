@@ -11,7 +11,6 @@ export 'package:myflutterbook/screens/advanced/fluttercircularmenu_screen.dart';
 export 'package:myflutterbook/screens/advanced/fluttercodehighlight_screen.dart';
 export 'package:myflutterbook/screens/advanced/hero_screen.dart';
 export 'package:myflutterbook/screens/advanced/imagepicker_screen.dart';
-export 'package:myflutterbook/screens/advanced/localjson_screen.dart';
 export 'package:myflutterbook/screens/advanced/lottie_screen.dart';
 export 'package:myflutterbook/screens/advanced/markdownrendering_screen.dart';
 export 'package:myflutterbook/screens/advanced/provider_screen.dart';

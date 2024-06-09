@@ -690,27 +690,6 @@ class AdvancedMenuScreen extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 15.0),
                         child: ListTile(
                           leading: const CircleAvatar(
-                            child: Text("LO"),
-                          ),
-                          trailing: const Icon(Icons.arrow_forward_ios_outlined,
-                              color: AppTheme.primary),
-                          title: const Text('Local Json',
-                              style:
-                                  TextStyle(fontSize: 15, color: Colors.black)),
-                          onTap: () async {
-                            await Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder: (context) => const LocaljsonScreen(),
-                              ),
-                            );
-                          },
-                        ),
-                      ),
-                      Padding(
-                        padding: const EdgeInsets.only(left: 15.0),
-                        child: ListTile(
-                          leading: const CircleAvatar(
                             child: Text("DA"),
                           ),
                           trailing: const Icon(Icons.arrow_forward_ios_outlined,
